@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "type" : "DataLoading or name of the interface eg. DataLoadingInterface",
+        "file_location_server": "<true/false>",
+        "file_location": "<some file location>"
+    },
+    {
+        "id": "2",
+        "type" : "FilteringInterface",
+        "use_filtering_flag" : "<boolean yes or no whether to use filtering>",
+        "filter method": "<some filter method implemented in library/GUI>",
+        "filter_method_params": "<parameters for the filter method as filled in by user>"
+    },
+    {
+        "id": "3",
+        "type" : "ExtractionInterface",
+        "extraction_method": "<some extraction method implemented in library/GUI>",
+        "extraction_method_params": "<parameters for the extraction method as filled in by user>"
+    },
+    {
+        "id": "4",
+        "type" : "ClassificationInterface",
+        "train_test_ratio_param": "<ratio of train/test data>",
+        "load_clf_or_train_flag": "<boolean flag to train a clf or to load a clf model>",
+        "train_clf_method": "<classifier the user wants to use>",
+        "train_clf_params": "<parameters for the classifier user wants to train>",
+        "load_clf_location": "<location of the classifier the user wants to load>",
+        "evaluate_flag": "<user decides whether the classifier metrics will be shown after training is done>",
+        "save_location": "<user decides where and how the classifier will be saved>"
+    }
+]

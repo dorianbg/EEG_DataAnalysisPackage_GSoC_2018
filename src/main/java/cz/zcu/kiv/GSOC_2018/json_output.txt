@@ -1,0 +1,305 @@
+{
+  "main_methods": [
+    {
+      "interface_name": "IClassifier",
+      "class_name": "RandomForestClassifier",
+      "method_name": "test",
+      "method_output_type": "cz.zcu.kiv.Utils.ClassificationStatistics",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "RandomForestClassifier",
+      "method_name": "train",
+      "method_output_type": "void",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "fe",
+          "parameter_type": "cz.zcu.kiv.FeatureExtraction.IFeatureExtraction",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "SVMClassifier",
+      "method_name": "test",
+      "method_output_type": "cz.zcu.kiv.Utils.ClassificationStatistics",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "hello from the other world",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "SVMClassifier",
+      "method_name": "train",
+      "method_output_type": "void",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "fe",
+          "parameter_type": "cz.zcu.kiv.FeatureExtraction.IFeatureExtraction",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "DecisionTreeClassifier",
+      "method_name": "test",
+      "method_output_type": "cz.zcu.kiv.Utils.ClassificationStatistics",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "DecisionTreeClassifier",
+      "method_name": "train",
+      "method_output_type": "void",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "hmm neznam bas",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "dorian je najbolji",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "fe",
+          "parameter_type": "cz.zcu.kiv.FeatureExtraction.IFeatureExtraction",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "LogisticRegressionClassifier",
+      "method_name": "test",
+      "method_output_type": "cz.zcu.kiv.Utils.ClassificationStatistics",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "LogisticRegressionClassifier",
+      "method_name": "train",
+      "method_output_type": "void",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "fe",
+          "parameter_type": "cz.zcu.kiv.FeatureExtraction.IFeatureExtraction",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "NeuralNetworkClassifier",
+      "method_name": "test",
+      "method_output_type": "cz.zcu.kiv.Utils.ClassificationStatistics",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IClassifier",
+      "class_name": "NeuralNetworkClassifier",
+      "method_name": "train",
+      "method_output_type": "void",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epochs",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "targets",
+          "parameter_type": "java.util.List",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        },
+        {
+          "parameter_name": "fe",
+          "parameter_type": "cz.zcu.kiv.FeatureExtraction.IFeatureExtraction",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    },
+    {
+      "interface_name": "IDataProvider",
+      "class_name": "OffLineDataProvider",
+      "method_name": "loadData",
+      "method_output_type": "void",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": []
+    },
+    {
+      "interface_name": "IFeatureExtraction",
+      "class_name": "WaveletTransform",
+      "method_name": "extractFeatures",
+      "method_output_type": "[D",
+      "method_output_description": "<empty>",
+      "method_description": "<empty>",
+      "method_parameters": [
+        {
+          "parameter_name": "epoch",
+          "parameter_type": "[[D",
+          "parameter_description": "<empty>",
+          "parameter_set_of_recommended_values": "<empty>",
+          "parameter_range_of_allowed_values": "<empty>"
+        }
+      ]
+    }
+  ]
+}

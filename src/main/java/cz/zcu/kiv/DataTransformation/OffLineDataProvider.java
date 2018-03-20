@@ -39,7 +39,7 @@ import java.util.*;
  *
  **********************************************************************************************************************/
 
-public class OffLineDataProvider {
+public class OffLineDataProvider implements IDataProvider {
 
     //
     private String vhdrFile;
